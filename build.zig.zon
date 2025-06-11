@@ -11,7 +11,7 @@
     .paths = .{
         "build.zig",
         "build.zig.zon",
-        "LICENSE",
+        "COPYING",
         "README.md",
     },
     .fingerprint = 0x5569e16c109dba7, // Changing this has security and trust implications.
