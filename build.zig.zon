@@ -1,11 +1,11 @@
 .{
     .name = .libiconv,
-    .version = "1.18.0",
+    .version = "1.19.0",
     .minimum_zig_version = "0.15.1",
     .dependencies = .{
         .libiconv = .{
-            .url = "https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.18.tar.gz",
-            .hash = "N-V-__8AAFwJUgGJcIFZ3fj0Q9U_KtvhHdZXlLz1FcAuIcmX",
+            .url = "https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.19.tar.gz",
+            .hash = "N-V-__8AAL42WwECZQyJs7zPrYUX1cjcCv0qImj0y8A0ckjZ",
         },
     },
     .paths = .{
