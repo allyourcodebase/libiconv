@@ -1,6 +1,6 @@
 const std = @import("std");
 
-const version: std.SemanticVersion = .{ .major = 1, .minor = 18, .patch = 0 };
+const version: std.SemanticVersion = .{ .major = 1, .minor = 19, .patch = 0 };
 const libcharset_version: std.SemanticVersion = .{ .major = 1, .minor = 5, .patch = 0 };
 
 pub fn build(b: *std.Build) void {
