@@ -1,6 +1,6 @@
 const std = @import("std");
 
-const version: std.SemanticVersion = .{ .major = 1, .minor = 19, .patch = 0 };
+const version = std.SemanticVersion.parse(@import("build.zig.zon").version) catch unreachable;
 const libcharset_version: std.SemanticVersion = .{ .major = 1, .minor = 5, .patch = 0 };
 
 pub fn build(b: *std.Build) void {
